@@ -13,6 +13,7 @@ var _ = Describe("Set", func() {
 		s = adt.NewSet()
 	})
 
+
 	Describe("Emptiness", func() {
 		Context("When the set does not contain items", func() {
 			It("Should be empty", func() {
